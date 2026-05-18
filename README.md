@@ -8,7 +8,7 @@
 
 | Topic | Article | Difficulty | Latest |
 |-------|---------|------------|--------|
-|[Classic ML](#01-classic-ml) | {{COUNT_01}} | Beginner -> Intermediate | {{LATEST_O4}}
+|[Classic ML](#01-classic-ml) | {{COUNT_01}} | Beginner -> Intermediate | {{LATEST_O1}}
 |[Math Foundations](#02-math-foundations) | {{COUNT_02}} | Beginner -> Intermediate | {{LATEST_O2}}
 
 
