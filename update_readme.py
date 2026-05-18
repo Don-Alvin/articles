@@ -57,7 +57,7 @@ def update_readme(articles, readme_path="README.md"):
         count = len(articles[topic])
         content = content.replace(f"{{{{COUNT_{topic}}}}}", str(count))
 
-        latest = articles[topic]["date"] if articles[topic] else "N/A"
+        latest = articles[topic][0]["date"] if articles[topic] else "N/A"
         content = content.replace(f"{{{{LATEST_{topic}}}}}", latest)
     
     with open(readme_path, 'w') as f:
