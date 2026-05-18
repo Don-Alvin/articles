@@ -15,3 +15,20 @@
 ## 01 Classic ML
 *Foundational algorithms that still power production systems*
 
+| Article | Difficulty | Date | Links |
+|---------|------------|-----------|-------|
+| [Imbalanced Data and Why Accuracy Fails](01-classic-ml/imbalanced-data-and-why-accuracy-fails/) | Beginner | 2026-02-11 | [Medium Link](https://medium.com/@alvindon41/imbalanced-data-and-why-accuracy-fails-86d2b6a9992a)
+
+> `01-classic-ml` . {{COUNT_01}} articles . [Browse folder](01-classic-ml)
+
+## 02 Math Foundations
+*The essential mathematics for understanding ML*
+
+| Article | Difficulty | Date | Links |
+|---------|------------|-----------|-------|
+| [Descriptive Statistics](02-math-foundations/descriptive-statistics/) | Beginner | 2024-08-12 | [LinkedIn Link](https://www.linkedin.com/pulse/descriptive-statistics-don-alvin-h32nf/)
+
+> `02-math-foundations` . {{COUNT_02}} articles . [Browse folder](02-math-foundations)
+
+
+
