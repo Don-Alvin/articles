@@ -26,7 +26,7 @@
 
 | Article | Difficulty | Date | Links |
 |---------|------------|-----------|-------|
-| [Descriptive Statistics](02-math-foundations/descriptive-statistics/) | Beginner | 2024-08-12 | [LinkedIn Link](https://www.linkedin.com/pulse/descriptive-statistics-don-alvin-h32nf/)
+| [Descriptive Statistics](02-math-foundations/descriptive-statistics/) | Beginner | 2024-12-18 | [LinkedIn Link](https://www.linkedin.com/pulse/descriptive-statistics-don-alvin-h32nf/)
 
 > `02-math-foundations` . {{COUNT_02}} articles . [Browse folder](02-math-foundations)
 
