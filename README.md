@@ -2,7 +2,7 @@
 
 > A curated, collection of my writing on machine learning and artificial intelligence. Article have code examples, visualizations and references. Also published on [Medium](https://medium.com/@alvindon41) and [LinkedIn](https://linkedin.com/in/donux).
 
-**Status**: Active . **Total Articles**: {{TOTAL_ARTICLES}} . **Last Updated**: {{DATE}}
+**Status**: Active . **Total Articles**: 2 . **Last Updated**: 2026-05-19
 
 ---
 
