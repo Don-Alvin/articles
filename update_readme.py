@@ -53,26 +53,17 @@ def update_readme(articles, readme_path="README.md"):
     content = content.replace("{{TOTAL_ARTICLES}}", str(total))
     content = content.replace("{{DATE}}", datetime.now().strftime("%Y-%m-%d"))
 
-    print(f"Topics found: {list(articles.keys())}")
-
+    # Update placeholders for each topic
     for topic in articles:
         count = len(articles[topic])
+        # Try both the full topic name and the simple number
         content = content.replace(f"{{{{COUNT_{topic}}}}}", str(count))
-
-        latest = articles[topic][0]["date"] if articles[topic] else "N/A"
-        content = content.replace(f"{{{{LATEST_{topic}}}}}", latest)
-
+        content = content.replace(f"{{{{COUNT_{topic.split('-')[0]}}}}}", str(count))
+        
         if articles[topic]:
-            latest = articles[topic][0]['date']
-            latest_placeholder = f"{{{{latest_{topic}}}}}"
-            print(f"Looking for {latest_placeholder}, latest={latest}")
-            content = content.replace(latest_placeholder, latest)
-    
-    if "{{COUNT_" in content:
-        print("WARNING: Some COUNT placeholders were not replaced:")
-        import re
-        unfilled = re.findall(r'\{\{COUNT_[^}]+\}\}', content)
-        print(unfilled)
+            latest = articles[topic][0]["date"]
+            content = content.replace(f"{{{{LATEST_{topic}}}}}", latest)
+            content = content.replace(f"{{{{LATEST_{topic.split('-')[0]}}}}}", latest)
     
     with open(readme_path, 'w') as f:
         f.write(content)
