@@ -56,14 +56,17 @@ def update_readme(articles, readme_path="README.md"):
     # Update placeholders for each topic
     for topic in articles:
         count = len(articles[topic])
-        # Try both the full topic name and the simple number
+        # Extract the simple number (e.g., "01" from "01-classic-ml")
+        simple_key = topic.split('-')[0]
+        
+        # Replace both the simple key and full key placeholders
+        content = content.replace(f"{{{{COUNT_{simple_key}}}}}", str(count))
         content = content.replace(f"{{{{COUNT_{topic}}}}}", str(count))
-        content = content.replace(f"{{{{COUNT_{topic.split('-')[0]}}}}}", str(count))
         
         if articles[topic]:
             latest = articles[topic][0]["date"]
+            content = content.replace(f"{{{{LATEST_{simple_key}}}}}", latest)
             content = content.replace(f"{{{{LATEST_{topic}}}}}", latest)
-            content = content.replace(f"{{{{LATEST_{topic.split('-')[0]}}}}}", latest)
     
     with open(readme_path, 'w') as f:
         f.write(content)
