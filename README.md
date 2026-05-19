@@ -8,8 +8,8 @@
 
 | Topic | Article | Difficulty | Latest |
 |-------|---------|------------|--------|
-|[Classic ML](#01-classic-ml) | {{COUNT_01-classic-ml}} | Beginner -> Intermediate | {{LATEST_01}}
-|[Math Foundations](#02-math-foundations) | {{COUNT_02-math-foundations}} | Beginner -> Intermediate | {{LATEST_02}}
+|[Classic ML](#01-classic-ml) | {{COUNT_01}} | Beginner -> Intermediate | {{LATEST_01}}
+|[Math Foundations](#02-math-foundations) | {{COUNT_02}} | Beginner -> Intermediate | {{LATEST_02}}
 
 
 ## 01 Classic ML
@@ -19,7 +19,7 @@
 |---------|------------|-----------|-------|
 | [Imbalanced Data and Why Accuracy Fails](01-classic-ml/imbalanced-data-and-why-accuracy-fails/) | Beginner | 2026-02-11 | [Medium Link](https://medium.com/@alvindon41/imbalanced-data-and-why-accuracy-fails-86d2b6a9992a)
 
-> `01-classic-ml` . {{COUNT_01-classic-ml}} articles . [Browse folder](01-classic-ml)
+> `01-classic-ml` . {{COUNT_01}} articles . [Browse folder](01-classic-ml)
 
 ## 02 Math Foundations
 *The essential mathematics for understanding ML*
@@ -28,7 +28,7 @@
 |---------|------------|-----------|-------|
 | [Descriptive Statistics](02-math-foundations/descriptive-statistics/) | Beginner | 2024-12-18 | [LinkedIn Link](https://www.linkedin.com/pulse/descriptive-statistics-don-alvin-h32nf/)
 
-> `02-math-foundations` . {{COUNT_02-math-foundations}} articles . [Browse folder](02-math-foundations)
+> `02-math-foundations` . {{COUNT_02}} articles . [Browse folder](02-math-foundations)
 
 
 
